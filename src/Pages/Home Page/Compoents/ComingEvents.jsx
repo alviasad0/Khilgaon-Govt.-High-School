@@ -14,8 +14,8 @@ const ComingEvents = () => {
   }, []);
   return (
     <div>
-      <div className="w-[250px]  mx-auto">
-        <h1 className="mb-16 text-center text-lg  md:text-3xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-[#73c0fe] via-[#906eff] to-[#bd34fe]">
+      <div className="w-[250px]  ">
+        <h1 className="mb-16 pt-2  text-lg  md:text-3xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-[#73c0fe] via-[#906eff] to-[#bd34fe]">
           কামিং ইভেন্ট
         </h1>
       </div>

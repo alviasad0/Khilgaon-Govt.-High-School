@@ -19,7 +19,7 @@ const LatestAnnouncements = () => {
     return (
       <div className="mt-24 ">
         <div className="w-[220px]  mx-auto">
-          <h1 className="mb-16 text-center text-lg  md:text-3xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-[#73c0fe] via-[#906eff] to-[#bd34fe]">
+          <h1 className="mb-16 pt-2 text-center text-lg  md:text-3xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-[#73c0fe] via-[#906eff] to-[#bd34fe]">
             সর্বশেষ বিজ্ঞপ্তি
           </h1>
         </div>

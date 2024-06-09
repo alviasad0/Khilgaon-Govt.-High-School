@@ -14,13 +14,13 @@ const ImportantLinks = () => {
     }, []);
     return (
       <div>
-        <div className="w-[250px]  mx-auto">
-          <h1 className="mb-16 text-center text-lg  md:text-3xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-[#73c0fe] via-[#906eff] to-[#bd34fe]">
-            প্রয়োজনীয় লিংক
+        <div className="w-[250px]  ">
+          <h1 className="mb-16 pt-2 text-lg  md:text-3xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-[#73c0fe] via-[#906eff] to-[#bd34fe]">
+            প্রয়োজনীয় লিংক
           </h1>
         </div>
         <div>
-          <div className="rounded-lg bg-[#F4F4F4] h-[392px]">
+          <div className="rounded-lg bg-[#F4F4F4] h-[400px] md:h-[392px] ">
             <div className="pt-5 pl-5">
               {displayAnnouncements.map((data) => (
                 <div key={data._id}>
