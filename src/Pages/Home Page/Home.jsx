@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <Banner></Banner>
       <LatestAnnouncements></LatestAnnouncements>
-      <div className="border-2 max-w-screen-2xl mx-auto h-[500px] mt-24 flex gap-4">
+      <div className=" max-w-screen-2xl mx-auto h-[500px] mt-24 flex flex-col md:flex-row gap-4">
         <div className="flex-1">
           <ComingEvents></ComingEvents>
         </div>

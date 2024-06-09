@@ -46,7 +46,7 @@ const LatestAnnouncements = () => {
                     className="flex justify-center text-white font-bold"
                     to={`/allAnnouncements`}
                   >
-                    See All{" "}
+                    আরো দেখুন
                     <span className="pl-3 text-white text-2xl font-extrabold">
                       <MdOutlineKeyboardArrowDown />
                     </span>
