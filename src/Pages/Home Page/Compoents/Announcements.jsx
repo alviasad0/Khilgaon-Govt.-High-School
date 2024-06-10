@@ -13,7 +13,7 @@ const Announcements = () => {
     return (
       <div>
         <div className="w-full h-10 bg-[#646CFF]">
-          <div className="max-w-screen-2xl mx-auto">
+          <div className="max-w-screen-2xl mx-auto flex ">
             <Marquee className="text-white text-xl font-bold">
               {allData.map((data) => (
                 <div key={data._id}>

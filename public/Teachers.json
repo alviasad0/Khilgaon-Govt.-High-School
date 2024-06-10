@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "1",
+    "image": "https://i.ibb.co/zsQRYTF/teacher-prifile.jpg",
+    "name": "Yasir Arafat",
+    "subject": "Science and Technology"
+  },
+  {
+    "_id": "2",
+    "image": "https://i.ibb.co/zsQRYTF/teacher-prifile.jpg",
+    "name": "Rizqi Assegaf",
+    "subject": "Assist. Eng Teacher"
+  },
+  {
+    "_id": "3",
+    "image": "https://i.ibb.co/zsQRYTF/teacher-prifile.jpg",
+    "name": "Alvi Asad",
+    "subject": "Math Teacher"
+  },
+  {
+    "_id": "4",
+    "image": "https://i.ibb.co/zsQRYTF/teacher-prifile.jpg",
+    "name": "Nazmul Khan ",
+    "subject": "English Teacher"
+  },
+  {
+    "_id": "5",
+    "image": "https://i.ibb.co/zsQRYTF/teacher-prifile.jpg",
+    "name": "Md Mohon",
+    "subject": "ICT teacher"
+  }
+]

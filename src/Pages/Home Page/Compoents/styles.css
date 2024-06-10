@@ -1,0 +1,24 @@
+
+
+
+
+
+
+.append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+    font-size: 13px;
+    text-align: center;
+    width: 50px;
+    /* Adjust the width to fit the text and make it circular */
+    height: 50px;
+    /* Ensure the height is the same as the width */
+    line-height: 30px;
+    /* Center the text vertically */
+}
