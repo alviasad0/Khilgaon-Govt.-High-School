@@ -3,6 +3,7 @@ import TopLoginBtn from '../Pages/Home Page/Compoents/TopLoginBtn';
 import Header from '../Pages/Home Page/Compoents/Header';
 import Navbar from '../Pages/Home Page/Compoents/Navbar';
 import Announcements from '../Pages/Home Page/Compoents/Announcements';
+import Footer from '../Pages/Home Page/Compoents/Footer';
 
 const Root = () => {
     return (
@@ -12,6 +13,7 @@ const Root = () => {
         <Announcements></Announcements>
         <Navbar></Navbar>
         <Outlet></Outlet>
+        <Footer></Footer>
       </div>
     );
 };

@@ -67,7 +67,7 @@ const AtaGlance = () => {
             <div className=" bg-[#F6F6F7] rounded-lg w-[279px] h-[380px] mx-auto">
               <div className=" h-1/2">
                 <img
-                  src="https://i.ibb.co/d74JdmX/teacher-removebg-preview.png"
+                  src="https://i.ibb.co/CWJbvfp/calender-removebg-preview.png"
                   alt=""
                   className="h-full mx-auto p-5"
                 />
@@ -75,9 +75,9 @@ const AtaGlance = () => {
               <div className=" h-1/2 flex justify-center items-center ">
                 <p className="font-bold text-xl">
                   <span className="flex justify-center text-6xl font-bold text-black">
-                    61
+                    59
                   </span>{" "}
-                  <br /> Total teachers
+                  <br /> Total Years
                 </p>
               </div>
             </div>
