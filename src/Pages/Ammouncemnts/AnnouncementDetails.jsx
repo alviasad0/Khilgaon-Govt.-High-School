@@ -23,7 +23,7 @@ const AnnouncementDetails = () => {
   return (
     <div className="">
       
-      {displayData && <p>{displayData.announcement}</p>}
+      {displayData && <p className="text-center text-xl font-bold pt-10">{displayData.announcement}</p>}
     </div>
   );
 };
