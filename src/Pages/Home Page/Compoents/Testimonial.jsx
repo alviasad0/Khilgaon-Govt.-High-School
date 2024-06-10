@@ -23,10 +23,10 @@ const Testimonial = () => {
                   তৈরী হয়। একটা জাতি এর উন্নয়য়ন এর জন্য দক্ষ মানব সম্পদ <br />
                   এর প্রয়োজন।
                 </p>
-                <h1 className="text-xl md:text-[40px] text-white pt-10">
+                <h1 className="text-xl md:text-[40px] text-white pt-14">
                   বদরুদ্দোজা ধ্রুব
                 </h1>
-                <p className="text-lg md:text-3xl text-white">
+                <p className="text-lg md:text-2xl pt-4 text-white">
                   শিক্ষার্থী, ব্যাচ ২০১৭
                 </p>
               </div>
