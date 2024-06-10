@@ -5,7 +5,7 @@ import { IoMail } from "react-icons/io5";
 const Footer = () => {
     return (
       <div className="mt-48">
-        <div className="bg-[#646CFF] h-[332px]">
+        <div className="bg-[#646CFF] md:h-[332px] flex items-center">
           <footer className="footer p-10 text-[#F6F6F7] max-w-screen-2xl mx-auto items-center">
             <aside className="flex gap-5 items-center">
               <img
@@ -57,6 +57,15 @@ const Footer = () => {
                 kghs17.instagram.com
               </a>
             </nav>
+          </footer>
+        </div>
+        <div>
+          <footer
+            className="footer footer-center p-4 bg-[#4D54E0] text-sm text-white"
+          >
+            <aside>
+              <p>Copyright © খিলগাঁও সরকারি উচ্চ বিদ্যালয়</p>
+            </aside>
           </footer>
         </div>
       </div>
