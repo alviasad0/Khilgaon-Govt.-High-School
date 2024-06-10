@@ -1,12 +1,29 @@
+import  { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const AnnouncementDetails = () => {
   const { id } = useParams();
-  console.log(id);
+  const [allData, setdata] = useState([]);
+  const [displayData, setDisplayData] = useState(null);
+
+  useEffect(() => {
+    fetch("/LatestAnnouncements.json")
+      .then((response) => response.json())
+      .then((data) => {
+        setdata(data);
+        const announcement = data.find((item) => item._id === id);
+        setDisplayData(announcement); 
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, [id]);
+  console.log(allData);
 
   return (
-    <div>
-      <p>this is the details page </p>
+    <div className="">
+      
+      {displayData && <p>{displayData.announcement}</p>}
     </div>
   );
 };
